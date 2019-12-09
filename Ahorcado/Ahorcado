@@ -1,0 +1,121 @@
+#include<stdio.h>
+#include<string.h>
+#include <conio.h>
+#include <ctype.h>
+#include <unistd.h>
+
+#define CHARS 80
+#define ENTER 13
+#define BACKSPACE 8
+#define VL   179
+#define HL   196
+#define CUAD 219
+#define ESPC 32
+#define HEAD 1
+#define DG1  47
+#define DG2  92
+#define DQS  191
+#define IQS  218
+
+#define MAX_COL   80
+#define MAX_ROW   25
+
+void getfreq(char str[],int freq[]);
+void juego(void);
+void imp(char c, int cant, int px, int py, int line);
+
+
+int main()
+{
+
+    char letra[CHARS];
+    int i = 0,j = 0;
+    int x, y;
+
+    gotoxy(1,1);
+    juego();
+    printf("\nJuego del ahorcado ");
+    printf("\nIngrese la palabra:");
+
+    do
+    {
+        letra[i] = getch();
+
+        if(letra[i]>='A' && letra[i]<='Z'||letra[i]>='a'&&letra[i]<='z')
+            printf("*");
+
+        if(letra[i]== 32)
+            printf(" ");
+
+        if(letra[i] == ENTER)
+            break;
+
+
+        j++;
+        i++;
+
+    }while(i<CHARS);
+
+    printf("\n");
+
+    for (i = 0; i < j; i++)
+        printf("%c",letra[i]);
+
+    return 0;
+}
+
+void getfreq(char str[],int freq[])
+{
+   int ind;
+
+   for (ind = 0; str[ind]; ind ++ )
+   {
+      if ( tolower(str[ind]) >= 'a' && tolower(str[ind]) <= 'z' )
+         freq[str[ind] - 'a']++;
+   }
+   return;
+}
+
+
+/*
+dibujar el muñequito
+averiguar sobre el backspace
+averiguar
+*/
+void imp(char c, int cant, int px, int py, int line)
+{
+
+    int i;
+   for (i = 0; i < cant; i++)
+   {
+      if (line)
+         gotoxy(px, py++);
+      else
+         gotoxy(px++, py);
+      printf("%c", c);
+   }
+
+   return;
+}
+
+void juego(void)
+{
+   int px = 1, py = 1, i;
+   int col = 0;
+   clrscr();
+
+    gotoxy(px, py++); printf("%c%c%c%c",ESPC, IQS, HL, DQS);
+
+    for(py;py<7;py+2)
+    {
+        gotoxy(px, py++); printf("%c%c%c%c",ESPC, VL, ESPC, VL);
+        gotoxy(px, py++); printf("%c%c%c%c",ESPC, VL, ESPC, VL);
+    }
+
+    gotoxy(px, py++); printf("%c%c%c%c",ESPC, HEAD, ESPC, VL);
+    gotoxy(px, py++); printf("%c%c%c%c",DG1, VL, DG2, VL);
+    gotoxy(px, py++); printf("%c%c%c%c",ESPC, VL, ESPC, VL );
+    gotoxy(px, py++); printf("%c%c%c%c",DG1, ESPC, DG2, VL );
+    col = 6;
+
+}
