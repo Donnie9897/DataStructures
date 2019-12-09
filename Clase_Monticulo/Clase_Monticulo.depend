@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1559787162 source:c:\users\luisd\desktop\clase_monticulo\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1559787956 c:\users\luisd\desktop\clase_monticulo\monticulo.h
+	<stdlib.h>
+
+1559822603 source:c:\users\luisd\desktop\clase_monticulo\monticulo.c
+	<stdlib.h>
+	<math.h>
+	"Monticulo.h"
+
+1561659380 source:c:\users\luisd\desktop\clase_monticulo\monticulo_main.c
+	<stdio.h>
+	<stdlib.h>
+	"Monticulo.h"
+
+1559410370 source:c:\users\luisd\desktop\project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1558915819 source:c:\users\luisd\desktop\project\pilaclase.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"PilaEstatica.h"
+
+1558726011 c:\users\luisd\desktop\project\pilaestatica.h
+	<stdlib.h>
+
