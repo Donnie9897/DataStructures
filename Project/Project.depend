@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1560867013 source:c:\users\luisd\desktop\project\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilatriple.h"
+
+1559780114 source:c:\users\luisd\desktop\project\piladina.c
+	<stdio.h>
+	<string.h>
+	"Pilahea.h"
+
+1559780115 c:\users\luisd\desktop\project\pilahea.h
+	<stdlib.h>
+
+1559780118 source:c:\users\luisd\desktop\project\pilaclase.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pilahea.h"
+
+1559829610 source:c:\users\luisd\desktop\project\primer problema.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1560867302 source:c:\users\luisd\desktop\project\pilatriple.c
+	<stdio.h>
+	<string.h>
+	"Pilatriple.h"
+
+1560866227 c:\users\luisd\desktop\project\pilatriple.h
+	<stdlib.h>
+
