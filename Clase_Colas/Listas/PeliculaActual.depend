@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1562681172 source:c:\users\luisd\desktop\pelicula\lista.c
+	<stdlib.h>
+	"Lista.h"
+
+1562681181 c:\users\luisd\desktop\pelicula\lista.h
+	<stdlib.h>
+
+1562681251 source:c:\users\luisd\desktop\pelicula\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"conio.c"
+	"Lista.h"
+
+1286690350 c:\users\luisd\desktop\pelicula\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\luisd\desktop\pelicula\conio.h
+	<stdio.h>
+
