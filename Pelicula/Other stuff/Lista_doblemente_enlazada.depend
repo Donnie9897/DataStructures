@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1561473506 source:c:\users\felix\desktop\lista_doblemente_enlazada\lista.c
+	<stdlib.h>
+	"Lista.h"
+
+1561471171 source:c:\users\felix\desktop\lista_doblemente_enlazada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.c"
+	"Lista.h"
+
+1286690424 c:\users\felix\desktop\lista_doblemente_enlazada\conio.h
+	<stdio.h>
+
+1286690350 c:\users\felix\desktop\lista_doblemente_enlazada\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1561471049 c:\users\felix\desktop\lista_doblemente_enlazada\lista.h
+	<stdlib.h>
+
+1562246491 source:c:\users\felix\desktop\hola\lista_doblemente_enlazada\lista.c
+	<stdlib.h>
+	"Lista.h"
+
+1561471049 c:\users\felix\desktop\hola\lista_doblemente_enlazada\lista.h
+	<stdlib.h>
+
+1562246491 source:c:\users\felix\desktop\hola\lista_doblemente_enlazada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"conio.c"
+	"Lista.h"
+
+1286690350 c:\users\felix\desktop\hola\lista_doblemente_enlazada\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\felix\desktop\hola\lista_doblemente_enlazada\conio.h
+	<stdio.h>
+
+1562246491 source:c:\users\luisd\desktop\pelicula\lista.c
+	<stdlib.h>
+	"Lista.h"
+
+1561471049 c:\users\luisd\desktop\pelicula\lista.h
+	<stdlib.h>
+
+1562246491 source:c:\users\luisd\desktop\pelicula\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"conio.c"
+	"Lista.h"
+
+1286690350 c:\users\luisd\desktop\pelicula\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\luisd\desktop\pelicula\conio.h
+	<stdio.h>
+
