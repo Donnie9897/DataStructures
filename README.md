@@ -1,1 +1,1 @@
-Proyectos y tareas de las materias de P1 y Algoritmia.
+Asignaciones sobre algoritmos y estructuras de datos.
