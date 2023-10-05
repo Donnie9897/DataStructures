@@ -1,2 +1,1 @@
-# Programming-1
-Data structures.
+Proyectos y tareas de las materias de P1 y Algoritmia.
